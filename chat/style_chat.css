@@ -1,0 +1,116 @@
+body{
+    background-color: #C3E3E1;
+    color: white;
+    font-family: 'Helvetica';
+}
+
+        /*Partie des users*/
+
+
+.users{
+    background-color: #123053;
+    margin: 0;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    width: 30%;
+    box-shadow: 0px 0px 10px black;
+    z-index: 100000;
+}
+.users a{
+    color: white;
+}
+.users a:hover{
+    text-decoration: none;
+}
+.users input{
+    margin: 0;
+    padding: 18px;
+    width: 100%;
+    background-color: #112844;
+    color: rgb(219, 210, 210);
+    font-size: 18px;
+    border-style: none;
+    outline: none;
+}
+.users input:focus{
+    outline: none;
+}
+.users .btn{
+    width: 32%;
+    position: fixed;
+    bottom: 0px;
+    font-size: 25px;
+    z-index: 1000;
+}
+.users .btn:hover{
+    outline: none;
+}
+.liste h5{
+    margin: 0px;
+    padding: 20px;
+}
+.liste h5:hover{
+    background-color: rgb(54, 148, 185);
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 1px black;
+}
+
+        /*Le main*/
+
+.messagerie{
+    margin-top: 0px;
+}
+.messagerie h1{
+    margin: 0;
+    background-color: #73999e;
+    padding: 15px;
+}
+.messagerie h3{
+    background-color: #f1f5f8;
+    color: black;
+    margin: 0px;
+    padding: 15px;
+    padding-left: 70px;
+}
+
+        /*Le chat*/
+
+.chat{
+    width: 70%;
+    height: 500px;
+    color: black;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.chat .conversation{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bas input{
+    width: 70%;
+    position: fixed;
+    bottom: 0px;
+    border-style: none;
+    font-size: 17px;
+    padding: 25px;
+    color: black;
+}
+.bas input:focus{
+    outline: none;
+}
+.btnEnvoi{
+    width: 50px;
+    height: 50px;
+    background-image: url('envoye_icn.png');
+    background-size: cover;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgb(138, 130, 130);
+    position: fixed;
+    right: 32%;
+    bottom: 7%;
+}
